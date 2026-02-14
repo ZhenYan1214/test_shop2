@@ -54,9 +54,10 @@ function App() {
       </nav>
 
       {/* Hero / Bloom Section */}
-      <section className="container-custom py-12 text-center">
-        <div className="w-full mb-8">
-            <img src={heroImg} alt="Bloom Collection" className="w-full h-auto rounded-sm shadow-sm" />
+      {/* Hero / Bloom Section - Reduced spacing, no border/shadow on image */}
+      <section className="container-custom pt-6 pb-2 text-center">
+        <div className="w-full mb-4">
+            <img src={heroImg} alt="Bloom Collection" className="w-full h-auto" />
         </div>
       </section>
 
